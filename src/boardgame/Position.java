@@ -26,7 +26,7 @@ public class Position {
 		this.column = column;
 	}
 	
-	@Override
+	@Override //isso para imprimir diretamente do objeto print pos
 	public String toString() {
 		return row + ", " + column;
 	}
